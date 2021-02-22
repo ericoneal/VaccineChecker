@@ -40,6 +40,6 @@ def SendEmail():
 
 
 isTakingAppointments = CallWalgreens()        
-isTakingAppointments = True
+
 if(isTakingAppointments == True):
     SendEmail()
