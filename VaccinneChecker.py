@@ -28,10 +28,10 @@ def CallWalgreens():
 
 def SendEmail():
     
-    receiver = "eri*@gmail.com"
+    receiver = "eric*@gmail.com"
 
     print("Emailing results table to: " + receiver)
-    yag = yagmail.SMTP("eao*@gmail.com",'*')
+    yag = yagmail.SMTP("ea*s@gmail.com",'*')
     yag.send(
     to=receiver,
     subject="Louisville Walgreens are taking COVID appointments"
@@ -40,6 +40,6 @@ def SendEmail():
 
 
 isTakingAppointments = CallWalgreens()        
- 
+
 if(isTakingAppointments == True):
     SendEmail()
